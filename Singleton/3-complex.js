@@ -7,7 +7,7 @@ const Singleton = (() => {
     constructor() {
       if (instance) return instance;
       instance = this;
-   }
+    }
   }
 
   return Singleton;
@@ -16,6 +16,6 @@ const Singleton = (() => {
 
 // Usage
 
-
+// eslint-disable-next-line
 console.assert(new Singleton() === new Singleton());
 console.log('instances are equal');

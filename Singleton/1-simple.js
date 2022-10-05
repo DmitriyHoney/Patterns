@@ -7,6 +7,7 @@ function Singleton() {
 }
 
 // Usage
+// eslint-disable-next-line
 console.assert(new Singleton() === new Singleton());
 console.log('instances are equal');
 

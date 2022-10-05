@@ -1,0 +1,12 @@
+{
+  "name": "Patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DmitriyHoney/Patterns.git",
+  "author": "Bolshakov Dmitry <vanove2013@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  }
+}
